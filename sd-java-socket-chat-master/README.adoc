@@ -1,0 +1,26 @@
+:icons: font
+
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+= Sockets image:https://github.com/manoelcampos/sd-java-socket-chat/workflows/maven/badge.svg[]
+
+Projetos apresentando conceitos básicos como `Sockets`, `InputStream` e `OutputStream`, além do uso de `Threads`
+no desenvolvimento de aplicações de chat. 
+
+[NOTE]
+====
+- https://youtu.be/1X9KPcmOGzc[Vídeo]: 🧵Entendendo o que são THREADS e porque TODO DEV precisa conhecer tal recurso (link:../00-concorrencia/threads.pptx[Slides]).
+- https://youtu.be/ymisPxZJxJ0[Vídeo]: Criando THREADS em JAVA e TURBINANDO o TEMPO de RESPOSTA das suas APLICAÇÕES 🚀🧵☕️
+- https://youtu.be/MtAfYUW7fJ4[Vídeo #1]: Criando aplicação CLIENTE/SERVIDOR de CHAT em JAVA usando SOCKETS e THREADS ☕️ 🔌🧵 (link:chat-sockets.pptx[Slides])
+====
+
+A primeira versão é a mais básica e as outras vão mostrando diferentes maneiras
+de implementar a mesma aplicação, principalmente utilizando
+APIs mais novas da linguagem Java.
